@@ -1,0 +1,4 @@
+The 001 folder is the DM lite 4K control software. Copy it to the hard disk and double-click the exe file to run it；
+
+Folder 002 is the path file in the Master video, master video link:https://www.bilibili.com/video/BV1m84y1D7sj/?spm_id_from=333.999.0.0&vd_source=6160536eb2376eb101537035d7091c56
+Before using the device, be sure to read :DM lite 4K Use Precautions!!!

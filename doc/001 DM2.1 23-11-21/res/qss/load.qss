@@ -1,0 +1,239 @@
+QFrame[Type="load"]
+{
+border-image: url(./res/icon/Load/load.png);
+}
+QFrame[Type="Dark"]{
+background: #181818;
+}
+QLabel[Type="icon15"]
+{
+}
+QFrame[Type="MoreDark"]
+{
+border-radius: 10px;
+background: #181818;
+border: 2px solid rgba(255, 255, 255, 0.2);
+}
+QWidget[Type="MoreDark"]
+{
+border-radius: 10px;
+background: #181818;
+border: 2px solid rgba(255, 255, 255, 0.2);
+}
+QLineEdit[Type = "load"]
+{
+font-size: 12px;
+font-weight: normal;
+line-height: 14px;
+letter-spacing: 0px;
+color: rgb(255,255,255);
+background: #444444;
+border-radius: 3px;
+opacity: 1;
+border: 2px solid  rgb(255, 255, 255,0.2);
+}
+
+QRadioButton {
+    font-size: 12px;
+    color: #0780E8;
+
+	border: 0px solid #0780E8;
+}
+QRadioButton[Type = "icon25"]::indicator:unchecked {
+background-color:transparent;
+image: url(./res/icon/Windows/RadioButton/icon1.png);
+
+}
+QRadioButton[Type = "icon25"]::indicator:checked {
+background-color:transparent;
+image: url(./res/icon/Windows/RadioButton/icon2.png);
+
+
+}
+QLabel[Type="load1"]
+{
+font-size: 14px;
+font-weight: normal;
+line-height: 28px;
+display: flex;
+align-items: center;
+letter-spacing: 0px;
+color: #FFFFFF; 
+}
+
+QLabel[Type="fix"]
+{
+color: #FFFFFF; 
+background-color:transparent; 
+}
+QLabel[Type="changepassword"]
+{
+font-size: 12px;
+color: #0780E8;
+}
+
+
+QMainWindow[Type ="mainload"]
+{
+border-radius: 4px;
+background: rgba(40, 40, 40, 0.8);
+border-image: url(./res/icon/Load/background.png);
+}
+
+QToolButton
+{
+border-radius: 3px;
+opacity: 1;
+color: #FFFFFF;
+}
+QToolButton::pressed
+{
+
+border-radius: 3px;
+opacity: 1;
+background: #7B7B7B;
+box-sizing: border-box;
+border: 0.4px solid #C1C1C1;
+font-size: 12px;
+font-weight: normal;
+line-height: 14px;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+
+QToolButton:hover
+{
+border-radius: 3px;
+opacity: 1;
+background: #7B7B7B;
+box-sizing: border-box;
+border: 0.4px solid #C1C1C1;
+font-size: 12px;
+font-weight: normal;
+line-height: 14px;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+
+QToolButton[Type = "min"]
+{
+image: url(./res/icon/Windows/ToolButton/min.png);
+}
+QToolButton[Type = "max"]
+{
+image: url(./res/icon/Windows/ToolButton/max.png);
+}
+QToolButton[Type = "close"]
+{
+image: url(./res/icon/Windows/ToolButton/close.png);
+}
+QToolButton[Type = "reply"]
+{
+image: url(./res/icon/Windows/ToolButton/reply.png);
+}
+QToolButton[Type = "close2"]
+{
+image: url(./res/icon/Windows/ToolButton/close2.png);
+}
+QToolButton[Type = "help"]
+{
+image: url(./res/icon/Windows/ToolButton/help.png);
+}
+QToolButton[Type = "help2"]
+{
+image: url(./res/icon/Windows/ToolButton/help2.png);
+}
+QLabel[Type="icon2"]
+{
+image: url(./res/icon/Main/icon2.png);
+}
+QLabel[Type="icon4"]
+{
+image: url(./res/icon/Main/icon4.png);
+}
+QLabel[Type="icon5"]
+{
+image: url(./res/icon/Main/icon5.png);
+}
+
+
+
+
+
+QComboBox
+{
+background: #444444;
+border: 1px solid #444444;
+
+font-size: 11px;
+font-weight: 300px;
+line-height: 30px;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+selection-color: rgb(235,235,235);
+selection-background-color: rgb(83,121,180);
+}
+QComboBox::drop-down
+{
+	subcontrol-origin: padding;
+	subcontrol-position: center right;
+	width: 30px;
+	border:none;
+}
+QComboBox::down-arrow {
+    image: url(./res/icon/Windows/PushButton/down.png);
+}
+QComboBox::down-arrow:on {
+    image: url(./res/icon/Windows/PushButton/up.png);
+}
+QComboBox QAbstractItemView {
+    outline: 0px solid #000000;
+    border: 0px solid #000000;/* 整个下拉窗体的边框 */
+    color: #FFFFFF;
+    background-color: #282828; /* 整个下拉窗体的背景色 */
+    selection-color: #FFFFFF;/*下拉框选中项字体颜色*/
+    selection-background-color:#7B7B7B;/* 下拉框选中项的背景色 */
+}
+
+
+QPushButton[Type = "load2"]
+{
+border-radius: 3px;
+opacity: 1;
+background: #08365E;
+border: 0.4px solid #C1C1C1;
+font-size: 12px;
+color: #FFFFFF;
+}
+QPushButton[Type = "image"]
+{
+background-color: rgba(216, 216, 216, 0.4);
+border: 0px solid #C1C1C1;
+}
+QPushButton[Type = "image"]:checked
+{
+background-color: rgba(216, 216, 216, 0.8);
+border: 0px solid #C1C1C1;
+}
+QPushButton[Type = "load2"]:hover
+{
+background: #0F4C81;
+border-radius: 3px;
+opacity: 1;
+border: 0px solid #C1C1C1;
+font-size: 12px;
+font-weight: normal;
+color: #FFFFFF;
+}
+
+QPushButton[Type = "load2"]:pressed
+{
+background: #326087;
+border-radius: 3px;
+opacity: 1;
+border: 0.4px solid #C1C1C1;
+font-size: 12px;
+font-weight: normal;
+color: #FFFFFF;
+}
