@@ -289,15 +289,15 @@ QSpinBox[Type="mini"]::up-button:hover {
 	border: none;
 }
 QSpinBox[Type="mini"]::up-arrow { /* 向上箭头，图片大小为8x8 */
-	image: url(./res/icon/Windows/PushButto/upmini.png);
+	image: url(./res/icon/Windows/PushButton/upmini.png);
 }
 
 QSpinBox[Type="mini"]::up-arrow:hover {
-	image: url(./res/icon/Windows/PushButto/upmini.png);
+	image: url(./res/icon/Windows/PushButton/upmini.png);
 }
 
 QSpinBox[Type="mini"]::up-arrow:disabled, QSpinBox[Type="mini"]::up-arrow:off {
-	image: url(./res/icon/Windows/PushButto/upmini.png);
+	image: url(./res/icon/Windows/PushButton/upmini.png);
 }
 
 QSpinBox[Type="mini"]::down-button { /* 向下按钮 */
@@ -315,15 +315,15 @@ QSpinBox[Type="mini"]::down-button:hover {
 }
 
 QSpinBox[Type="mini"]::down-arrow { /* 向下箭头 */
-	image: url(./res/icon/Windows/PushButto/downmini.png);
+	image: url(./res/icon/Windows/PushButton/downmini.png);
 }
 
 QSpinBox[Type="mini"]::down-arrow:hover {
-	image: url(./res/icon/Windows/PushButto/downmini.png);
+	image: url(./res/icon/Windows/PushButton/downmini.png);
 }
 
 QSpinBox[Type="mini"]::down-arrow:disabled, QSpinBox[Type="mini"]::down-arrow:off {
-	image: url(./res/icon/Windows/PushButto/downmini.png);
+	image: url(./res/icon/Windows/PushButton/downmini.png);
 }
 
 
@@ -365,15 +365,15 @@ QSpinBox[Type="normal"]::up-button:hover {
 	border: none;
 }
 QSpinBox[Type="normal"]::up-arrow { /* 向上箭头，图片大小为8x8 */
-	image: url(./res/icon/Windows/PushButto/up.png);
+	image: url(./res/icon/Windows/PushButton/up.png);
 }
 
 QSpinBox[Type="normal"]::up-arrow:hover {
-	image: url(./res/icon/Windows/PushButto/up.png);
+	image: url(./res/icon/Windows/PushButton/up.png);
 }
 
 QSpinBox[Type="normal"]::up-arrow:disabled, QSpinBox[Type="normal"]::up-arrow:off {
-	image: url(./res/icon/Windows/PushButto/up.png);
+	image: url(./res/icon/Windows/PushButton/up.png);
 }
 
 QSpinBox[Type="normal"]::down-button { /* 向下按钮 */
@@ -391,15 +391,15 @@ QSpinBox[Type="normal"]::down-button:hover {
 }
 
 QSpinBox[Type="normal"]::down-arrow { /* 向下箭头 */
-	image: url(./res/icon/Windows/PushButto/down.png);
+	image: url(./res/icon/Windows/PushButton/down.png);
 }
 
 QSpinBox[Type="normal"]::down-arrow:hover {
-	image: url(./res/icon/Windows/PushButto/down.png);
+	image: url(./res/icon/Windows/PushButton/down.png);
 }
 
 QSpinBox[Type="normal"]::down-arrow:disabled, QSpinBox[Type="normal"]::down-arrow:off {
-	image: url(./res/icon/Windows/PushButto/down.png);
+	image: url(./res/icon/Windows/PushButton/down.png);
 }
 
 
@@ -424,7 +424,7 @@ QPushButton[Type="icon22"]
 {
 background: #282828;
 border: 0px solid #C1C1C1;
-image: url(./res/icon/Windows/PushButto/leftspin.png);
+image: url(./res/icon/Windows/PushButton/leftspin.png);
 }
 QPushButton[Type="icon23"]
 {

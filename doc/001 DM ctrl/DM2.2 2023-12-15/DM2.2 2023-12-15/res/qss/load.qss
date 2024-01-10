@@ -5,6 +5,13 @@ border-image: url(./res/icon/Load/load.png);
 QFrame[Type="Dark"]{
 background: #181818;
 }
+QFrame[Type="Light"]{
+background: #444444;
+}
+QFrame[Type="NewVerTit"]{
+border:0px ;
+border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
 QLabel[Type="icon15"]
 {
 }
@@ -71,8 +78,18 @@ QLabel[Type="changepassword"]
 font-size: 12px;
 color: #0780E8;
 }
-
-
+QLabel[Type="NewVerTit_Label"]
+{
+font-size: 16px;
+color: #FFFFFF; 
+background-color:transparent; 
+}
+QLabel[Type="NewVerDontShow"]
+{
+font-size: 9px;
+color: #FFFFFF; 
+background-color:transparent; 
+}
 QMainWindow[Type ="mainload"]
 {
 border-radius: 4px;
@@ -143,6 +160,10 @@ QToolButton[Type = "help2"]
 {
 image: url(./res/icon/Windows/ToolButton/help2.png);
 }
+QToolButton[Type = "CheckVer"]
+{
+image: url(./res/icon/Windows/ToolButton/CheckVer.png);
+}
 QLabel[Type="icon2"]
 {
 image: url(./res/icon/Main/icon2.png);
@@ -155,9 +176,17 @@ QLabel[Type="icon5"]
 {
 image: url(./res/icon/Main/icon5.png);
 }
+QLabel[Type="NewVer_icon"]
+{
+image: url(./res/icon/Load/NewVer.png);
+}
 
-
-
+QTextEdit
+{
+font-size: 12px;
+color: #FFFFFF; 
+background-color:transparent; 
+}
 
 
 QComboBox
